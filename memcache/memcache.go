@@ -65,7 +65,8 @@ var (
 
 const (
 	// DefaultTimeout is the default socket read/write timeout.
-	DefaultTimeout = 100 * time.Millisecond
+	//DefaultTimeout = 100 * time.Millisecond
+	DefaultTimeout = 300 * time.Second
 
 	// DefaultMaxIdleConns is the default maximum number of idle connections
 	// kept for any single address.
